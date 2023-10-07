@@ -28,7 +28,7 @@ def onQuit():
     icon.stop()
 
 
-listener = GlobalHotKeys({'<ctrl>+<shift>+v': remove_header})
+listener = GlobalHotKeys({'<ctrl>+<alt>+x': remove_header})
 listener.start()
 
 image = Image.open('icon.png')
